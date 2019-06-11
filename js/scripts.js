@@ -15,7 +15,7 @@ const animateBox = () => {
   }, 482);
 };
 
-/*const rejectAnimation = () => {
+const rejectAnimation = () => {
   const rejectBox = document.querySelector(".reject-wrapper");
   rejectBox.classList.add("backtive");
   setTimeout(() => {
@@ -23,7 +23,7 @@ const animateBox = () => {
   }, 300);
 };
 
-document.querySelector(".front .next-arrow").addEventListener("click", () => {
+/*document.querySelector(".front .next-arrow").addEventListener("click", () => {
   let value = document.querySelector(".name-input").value;
   if (value) {
     animateBox();
