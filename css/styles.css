@@ -63,7 +63,7 @@ body {
       background-color: lighten(#7722ff, 10);
       padding: 0px 10px;
 
-      /*&::placeholder {
+      &::placeholder {
         color: darken(white, 20);
       }
     }
