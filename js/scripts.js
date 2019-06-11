@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*const animateBox = () => {
+const animateBox = () => {
   const box = document.querySelector(".box");
   box.style.webkitAnimationPlayState = "running";
   setTimeout(() => {
@@ -15,7 +15,7 @@ var navigate = (function() {
   }, 482);
 };
 
-const rejectAnimation = () => {
+/*const rejectAnimation = () => {
   const rejectBox = document.querySelector(".reject-wrapper");
   rejectBox.classList.add("backtive");
   setTimeout(() => {
