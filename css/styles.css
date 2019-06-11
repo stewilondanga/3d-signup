@@ -106,14 +106,15 @@ body {
   transform: translateZ(150px);
 }
 
-/*.box {
+.box {
   transition: scale 1s;
   animation: spin 2s linear infinite;
   animation-fill-mode: forwards;
   transform-origin: center center 0px;
   animation-play-state: paused;
 }
-.reject-wrapper {
+
+/*.reject-wrapper {
   transition: all 1s;
   position: absolute;
   transform-style: preserve-3d;
