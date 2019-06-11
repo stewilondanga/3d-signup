@@ -52,7 +52,7 @@ body {
       cursor: pointer;
     }
 
-    /*    input {
+    input {
       top: 50%;
       font-size: 20px;
       width: 100%;
@@ -62,11 +62,13 @@ body {
       color: white;
       background-color: lighten(#7722ff, 10);
       padding: 0px 10px;
-      &::placeholder {
+
+      /*&::placeholder {
         color: darken(white, 20);
       }
     }
-    .reject-wrapper .right {
+
+    /*.reject-wrapper .right {
       background-color: lighten(#7722ff, 10);
       .submit-button {
         position: absolute;
