@@ -18,14 +18,14 @@ body {
   height: 1.5em;
 }
 
-/*.wrapper {
+.wrapper {
   left: 50%;
   transform: translate(-50%, -50%);
   top: 30%;
   position: absolute;
   perspective: 300px;
   perspective-origin: 50% 0px;
-  .box {
+  /*  .box {
     position: relative;
     width: 300px;
     transform-style: preserve-3d;
