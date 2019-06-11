@@ -120,10 +120,12 @@ body {
   transform-style: preserve-3d;
   transform: scale(1);
   transform-origin: center;
-  /*  &.backtive {
+
+  &.backtive {
     animation: reject-spin 0.3s linear;
   }
-  .signed-up {
+
+  /*  .signed-up {
     opacity: 0;
     transform: scale(0);
     color: white;
