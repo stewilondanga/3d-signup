@@ -150,16 +150,17 @@ body {
   }
 }
 
-/*
 @keyframes spin {
   from {
     transform: rotateY(0);
   }
+
   to {
     transform: rotateY(360deg);
   }
 }
 
+/*
 @keyframes signup-spin {
   0% {
     transform: rotateY(0deg);
