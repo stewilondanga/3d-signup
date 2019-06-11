@@ -70,7 +70,8 @@ body {
 
     .reject-wrapper .right {
       background-color: lighten(#7722ff, 10);
-      /*.submit-button {
+
+      .submit-button {
         position: absolute;
         left: 50%;
         font-size: 20px;
@@ -87,7 +88,7 @@ body {
   }
 }
 
-.back {
+/*.back {
   transform: translateZ(-150px) rotateY(180deg);
 }
 .right {
