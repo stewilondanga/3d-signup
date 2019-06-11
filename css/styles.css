@@ -114,13 +114,13 @@ body {
   animation-play-state: paused;
 }
 
-/*.reject-wrapper {
+.reject-wrapper {
   transition: all 1s;
   position: absolute;
   transform-style: preserve-3d;
   transform: scale(1);
   transform-origin: center;
-  &.backtive {
+  /*  &.backtive {
     animation: reject-spin 0.3s linear;
   }
   .signed-up {
