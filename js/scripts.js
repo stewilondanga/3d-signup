@@ -43,11 +43,11 @@ document.querySelector(".left .next-arrow").addEventListener("click", () => {
     document.querySelector(".email-input").placeholder = "Please enter a valid email"
   }
 });
-/*document.querySelector(".back .next-arrow").addEventListener("click", () => {
-    const value = document.querySelector(".location-input").value;
-  if(value){
+document.querySelector(".back .next-arrow").addEventListener("click", () => {
+  const value = document.querySelector(".location-input").value;
+  if (value) {
     animateBox();
-  } else{
+  } else {
     rejectAnimation();
     document.querySelector(".location-input").placeholder = "You can't be from nowhere"
   }
