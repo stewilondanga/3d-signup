@@ -134,12 +134,14 @@ body {
 
   &.submit {
     transition: all 3s;
-    /*  .face {
+
+    .face {
       animation: signup-spin 1s ease-out;
       animation-fill-mode: forwards;
       transform-origin: center center 0px;
     }
-    .signed-up {
+
+    /*  .signed-up {
       transition: all 2s;
       transform: rotateY(90deg) !important;
       opacity: 1;
