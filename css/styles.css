@@ -125,13 +125,14 @@ body {
     animation: reject-spin 0.3s linear;
   }
 
-  /*  .signed-up {
+  .signed-up {
     opacity: 0;
     transform: scale(0);
     color: white;
     font-size: 30px;
   }
-  &.submit {
+
+  /*  &.submit {
     transition: all 3s;
     .face {
       animation: signup-spin 1s ease-out;
