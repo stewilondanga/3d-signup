@@ -34,16 +34,16 @@ document.querySelector(".front .next-arrow").addEventListener("click", () => {
   }
 });
 
-/*document.querySelector(".left .next-arrow").addEventListener("click", () => {
+document.querySelector(".left .next-arrow").addEventListener("click", () => {
   const value = document.querySelector(".email-input").value;
-  if (/.+@.+\..+$/.test(value)) {
+  if (/.+@.+\..+$/.test(value)) {
     animateBox();
   } else {
     rejectAnimation();
     document.querySelector(".email-input").placeholder = "Please enter a valid email"
   }
 });
-document.querySelector(".back .next-arrow").addEventListener("click", () => {
+/*document.querySelector(".back .next-arrow").addEventListener("click", () => {
     const value = document.querySelector(".location-input").value;
   if(value){
     animateBox();
