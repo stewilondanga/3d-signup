@@ -30,7 +30,8 @@ body {
     position: relative;
     width: 300px;
     transform-style: preserve-3d;
-    /*    & .reject-wrapper .face {
+
+    & .reject-wrapper .face {
       overflow: hidden;
       position: absolute;
       width: 300px;
@@ -39,7 +40,8 @@ body {
       border: 3px solid white;
       color: white;
     }
-    .ion-chevron-right {
+
+    /*    .ion-chevron-right {
       color: white;
       z-index: 150;
       font-size: 20px;
