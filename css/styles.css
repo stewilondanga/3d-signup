@@ -41,7 +41,7 @@ body {
       color: white;
     }
 
-    /*    .ion-chevron-right {
+    .ion-chevron-right {
       color: white;
       z-index: 150;
       font-size: 20px;
@@ -51,7 +51,8 @@ body {
       right: 10px;
       cursor: pointer;
     }
-    input {
+
+    /*    input {
       top: 50%;
       font-size: 20px;
       width: 100%;
