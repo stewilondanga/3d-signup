@@ -92,11 +92,12 @@ body {
   transform: translateZ(-150px) rotateY(180deg);
 }
 
-/*.right {
+.right {
   transform: rotateY(-270deg) translateX(150px);
   transform-origin: top right;
 }
-.left {
+
+/*.left {
   transform: rotateY(270deg) translateX(-150px);
   transform-origin: center left;
 }
