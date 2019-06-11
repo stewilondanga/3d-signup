@@ -160,11 +160,11 @@ body {
   }
 }
 
-/*
 @keyframes signup-spin {
   0% {
     transform: rotateY(0deg);
   }
+
   100% {
     width: 0px;
     transform: rotateY(180deg);
@@ -172,6 +172,7 @@ body {
   }
 }
 
+/*
 @keyframes reject-spin {
   0% {
     transform: rotateY(0);
