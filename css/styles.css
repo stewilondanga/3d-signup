@@ -132,9 +132,9 @@ body {
     font-size: 30px;
   }
 
-  /*  &.submit {
+  &.submit {
     transition: all 3s;
-    .face {
+    /*  .face {
       animation: signup-spin 1s ease-out;
       animation-fill-mode: forwards;
       transform-origin: center center 0px;
