@@ -88,10 +88,11 @@ body {
   }
 }
 
-/*.back {
+.back {
   transform: translateZ(-150px) rotateY(180deg);
 }
-.right {
+
+/*.right {
   transform: rotateY(-270deg) translateX(150px);
   transform-origin: top right;
 }
