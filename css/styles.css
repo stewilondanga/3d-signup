@@ -102,11 +102,11 @@ body {
   transform-origin: center left;
 }
 
-/*.front {
+.front {
   transform: translateZ(150px);
 }
 
-.box {
+/*.box {
   transition: scale 1s;
   animation: spin 2s linear infinite;
   animation-fill-mode: forwards;
