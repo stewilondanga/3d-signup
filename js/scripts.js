@@ -23,7 +23,7 @@ const rejectAnimation = () => {
   }, 300);
 };
 
-/*document.querySelector(".front .next-arrow").addEventListener("click", () => {
+document.querySelector(".front .next-arrow").addEventListener("click", () => {
   let value = document.querySelector(".name-input").value;
   if (value) {
     animateBox();
@@ -34,7 +34,7 @@ const rejectAnimation = () => {
   }
 });
 
-document.querySelector(".left .next-arrow").addEventListener("click", () => {
+/*document.querySelector(".left .next-arrow").addEventListener("click", () => {
   const value = document.querySelector(".email-input").value;
   if (/.+@.+\..+$/.test(value)) {
     animateBox();
